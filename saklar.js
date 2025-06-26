@@ -8,14 +8,14 @@ function saklar( ) {
   let lampu3 = document.getElementById("lampu3");
 
   if (toggle1.checked) {
-    lampu1.src = "assets/images/on.gif";
+    lampu1.src = "on.gif";
   } else {
-    lampu1.src = "assets/images/off.gif";
+    lampu1.src = "off.gif";
   }
   if (toggle2.checked) {
-    lampu2.src = "assets/images/on.gif";
+    lampu2.src = "on.gif";
   } else {
-    lampu2.src = "assets/images/off.gif";
+    lampu2.src = "off.gif";
   }
   if (toggle3.checked) {
     lampu3.src = "assets/images/on.gif";
